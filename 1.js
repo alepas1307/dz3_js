@@ -20,6 +20,7 @@ celsiy(userTemperatura);
 function celsiy(userTemperatura) {
     userFaringet = (9 / 5) * userTemperatura + 32;
     userFaringet = Math.round(userFaringet);
-    console.log(`Цельсий: ${userTemperatura}, Фаренгейт: ${userFaringet}`);
+    alert(`Цельсий: ${userTemperatura}, Фаренгейт: ${userFaringet}`);
+    console.log;
     return userFaringet;
 }
